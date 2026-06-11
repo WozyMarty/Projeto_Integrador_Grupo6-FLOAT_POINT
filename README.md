@@ -1,8 +1,8 @@
 # Projeto Integrador - Minha Página na Rede
 ## Integrantes
-- Nome 1
-- Nome 2
-- Nome 3
+- William Alexandre Odote Martins;
+- João Pedro Macedo Alves;
+- Yuji Kanenobu.
 ## Tema do Projeto
 Página web sobre cafeteria fictícia.
 ---
@@ -37,6 +37,6 @@ relatorio/relatorio.pdf
 ## Topologia da Rede
 (packet-tracer/screenshots/topologia.png)
 ## Teste de Ping
-40. (packet-tracer/screenshots/ping.png)
-41. ## Acesso via DNS
-42. (packet-tracer/screenshots/dns.png)
+(packet-tracer/screenshots/ping.png)
+## Acesso via DNS
+(packet-tracer/screenshots/dns.png)

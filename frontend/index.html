@@ -17,12 +17,16 @@
         <ul>
             <li><a href="#sobre">Sobre o Projeto</a></li>
             <li><a href="#ferramenta">Calculadora de IP</a></li>
+			<li><a href="#calculadora">Calculadora</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="sobre">
             <h2>Sobre o Projeto Integrador</h2>
+			
+			<img src="image.jpg" alt="Imagem do Projeto" class="imagem-projeto">
+			
             <p>Esta página foi desenvolvida para aplicar conceitos de tags semânticas, estilização moderna e lógica de programação em JavaScript, integrando-se a uma infraestrutura simulada no Cisco Packet Tracer.</p>
             
             <h3>Recursos Utilizados:</h3>
@@ -52,6 +56,38 @@
                 <button id="btnTema">Alternar Modo Escuro</button>
             </div>
         </section>
+		
+		<section id="calculadora">
+			<h2>Calculadora Interativa</h2>
+
+			<div class="card calc-card">
+				<input type="text" id="calcDisplay" readonly>
+
+				<div class="calc-grid">
+					<button class="calc-btn">7</button>
+					<button class="calc-btn">8</button>
+					<button class="calc-btn">9</button>
+					<button class="calc-btn operador">/</button>
+
+					<button class="calc-btn">4</button>
+					<button class="calc-btn">5</button>
+					<button class="calc-btn">6</button>
+					<button class="calc-btn operador">*</button>
+
+					<button class="calc-btn">1</button>
+					<button class="calc-btn">2</button>
+					<button class="calc-btn">3</button>
+					<button class="calc-btn operador">-</button>
+
+					<button class="calc-btn">0</button>
+					<button class="calc-btn">.</button>
+					<button class="calc-btn igual">=</button>
+					<button class="calc-btn operador">+</button>
+
+					<button class="calc-btn limpar">C</button>
+				</div>
+			</div>
+		</section>		
     </main>
 
     <aside>

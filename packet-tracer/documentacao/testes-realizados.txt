@@ -1,0 +1,7 @@
+comunicação entre dispositivos;
+comunicação entre cliente e servidor;
+acesso ao ip do servidor;
+acesso ao dominio do servidor;
+simulação de pacote entre dispositivos;
+validação de configuração;
+validação de comunicação final (para entrega do proejeto);

@@ -50,4 +50,37 @@ document.addEventListener("DOMContentLoaded", function() {
             btnTema.textContent = "Alternar Modo Escuro";
         }
     });
+	
+	// =========================
+	// CALCULADORA
+	// =========================
+
+	const display = document.getElementById("calcDisplay");
+
+	document.querySelectorAll(".calc-btn").forEach(botao => {
+
+		botao.addEventListener("click", function() {
+
+			const valor = this.textContent;
+
+			if (valor === "C") {
+				display.value = "";
+			}
+			else if (valor === "=") {
+
+				try {
+					display.value = eval(display.value);
+				}
+				catch {
+					display.value = "Erro";
+				}
+
+			}
+			else {
+				display.value += valor;
+			}
+
+		});
+
+	});
 });

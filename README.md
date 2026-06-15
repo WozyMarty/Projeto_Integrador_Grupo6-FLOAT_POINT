@@ -4,10 +4,10 @@
 - João Pedro Macedo Alves;
 - Yuji Kanenobu.
 ## Tema do Projeto
-Página web sobre cafeteria fictícia.
+Página web de calculadora interativa + calculadora matemática simples.
 ---
 # Objetivo
-10. Desenvolver uma página web integrada a uma infraestrutura de rede simulada no Cisco Packet Tracer.
+Desenvolver uma página web integrada a uma infraestrutura de rede simulada no Cisco Packet Tracer.
 ---
 # Tecnologias Utilizadas
 - HTML5
@@ -21,7 +21,8 @@ Página web sobre cafeteria fictícia.
 ---
 # Funcionalidades JavaScript
 - Alteração dinâmica de cor
-- Validação de formulário
+- Calculadora de Ip
+- Calculadora matemática 
 ---
 # Acesso à Página
 ## GitHub Pages
